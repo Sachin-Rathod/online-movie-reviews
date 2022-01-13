@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+</head>
+
+<body>
+    <div class="top">
+        <nav>
+            <img src="images/logo.png" alt="logo" />
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                
+                <li><a href="Contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>5th Cross, Achit Nagar,<br>Soldevanahalli, Bangalore,<br>560107</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+917019038371</p>
+                        <p>+918123411769</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <a href = "mailto:sachinrathod025@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p><a href="mailto:sachinrathod025@gmail.com">sachinrathod025@gamil.com</a></p>
+                        <p><a href="mainto:teena.18.abca@acharya.ac.in">vinod2co.gmail.com</a></p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="contactForm">
+                <form id="feedback" action="https://formspree.io/f/xrgodvwn" method="post">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="Name" id="Name"  required>
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="Email" id="Email" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required name="Comment" id="Comment"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                    <br />
+                    <div id="status"></div>
+                </form>
+                <script src="Contact.js"></script>
+            </div>
+        </div>
+    </section>
+    <footer class = "footer">
+        <p>Copyright &copy; All right reserved | Develop &amp; Design By:- Sachin Rathod &amp; Vinod Kumar R</p>
+    </footer>
+</body>
+
+</html>
